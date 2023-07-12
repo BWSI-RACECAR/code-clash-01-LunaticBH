@@ -33,7 +33,7 @@ class Solution:
             
             if len(s) >= 5:
                 for i in s:
-                     string = string + s(-1)
+                     string = string + s(-i)
                 if string == s:
                     return True
             else:
