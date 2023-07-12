@@ -31,14 +31,7 @@ class Solution:
             #type s: string
             #return type: boolean
             
-            if len(s) >= 5:
-                for i in s:
-                     string = string + s(-i)
-                if string == s:
-                    return True
-            else:
-                return False
-            pass
+            return s==s[::-1] and len(s) > 6
 
 def main():
     tc1 = Solution()
